@@ -16,7 +16,7 @@
 <h3> Create groups to chat</h3>
 
 
-
+<br><br>
 ![new grp](https://github.com/sophia104/Multi-user-chat-application/assets/81484760/0dbb5951-4228-4071-b434-be1373428b93)
 
 
