@@ -1,24 +1,81 @@
-# Multi-user-chat-application
 
-<h3>Demo</h3> 
-<a href= 'https://talk-a-tive-7fgq.onrender.com/'> https://talk-a-tive-7fgq.onrender.com/</a>
+# Talk-A-Tive
 
+Talk-a-tive is a Full Stack Chatting App.
+Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
+## Tech Stack
 
-<br><br>
-![mernss](https://github.com/sophia104/Multi-user-chat-application/assets/81484760/ce9f5ada-ed30-4e47-8323-9a0e1cfba3c3)
+**Client:** React JS
 
-<h3> Real time time chatting with typing indication </h3>
+**Server:** Node JS, Express JS
 
+**Database:** Mongo DB
+  
+## Demo
 
-<br><br>
-![real-time](https://github.com/sophia104/Multi-user-chat-application/assets/81484760/d1d40199-67c2-4997-bda5-6bc149091d37)
+[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
 
-<h3> Create groups to chat</h3>
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+## Run Locally
 
+Clone the project
 
-<br><br>
-![new grp](https://github.com/sophia104/Multi-user-chat-application/assets/81484760/0dbb5951-4228-4071-b434-be1373428b93)
+```bash
+  git clone https://github.com/piyush-eon/mern-chat-app
+```
 
+Go to the project directory
 
+```bash
+  cd mern-chat-app
+```
 
+Install dependencies
 
+```bash
+  npm install
+```
+
+```bash
+  cd frontend/
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+Start the Client
+
+```bash
+  //open now terminal
+  cd frontend
+  npm start
+```
+
+  
+# Features
+
+### Authenticaton
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
+### Real Time Chatting with Typing indicators
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
+### One to One chat
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
+### Search Users
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
+### Create Group Chats
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
+### Notifications 
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+### Add or Remove users from group
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
+### View Other user Profile
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
+## Made By
+
+- [@Piyush-eon](https://github.com/piyush-eon)
+
+  
